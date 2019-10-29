@@ -6,6 +6,20 @@ Given a text file consisting of a list of words, and a series of rows of single-
 
 The point of this kata to to provide a larger than trivial exercise that can be used to practice TDD. A significant portion of the effort will be in determining what tests should be written and, more importantly, written next.
 
+## Building
+
+To build the code use the following
+
+```shell script
+./gradlew build
+```
+
+## Running Tests
+
+```shell script
+./gradlew test
+```
+
 ## Input ##
 
 The first line of the text file will consist of the list of words to be found.  The following lines will consist of a list of single characters, A-Z. All lines in the file except the first will have the same length, and the number of rows will match the number of characters in a line.  This input represents the square grid of the word search.
